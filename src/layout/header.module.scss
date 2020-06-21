@@ -1,0 +1,29 @@
+.section {
+  background: #def;
+}
+
+.nav {
+  list-style: none;
+  float: right;
+  position: relative;
+}
+
+.nav:after {
+  content: "";
+  display: block;
+  height: 1px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+.nav li {
+  float: left;
+}
+
+.nav li a {
+  font-size: 16px;
+  text-decoration: none;
+  display: block;
+  padding: 10px;
+}
