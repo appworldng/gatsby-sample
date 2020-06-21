@@ -1,0 +1,31 @@
+.caption,
+.caption-white {
+  font-size: 45px;
+  font-weight: 700;
+  text-transform: capitalize;
+  color: #32333c;
+  margin-top: 0;
+  margin-bottom: 0.75em;
+  transition: all 0.3s;
+  position: relative;
+  display: inline-block;
+}
+
+.caption:after,
+.caption-white:after {
+  content: "";
+  display: block;
+  background: #feb633;
+  height: 5px;
+  width: 50%;
+  margin: 0.5em auto 0;
+  width: 100px;
+}
+
+.caption-white {
+  color: #fff;
+}
+
+.caption-white:after {
+  background: #fff;
+}
