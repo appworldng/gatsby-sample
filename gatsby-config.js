@@ -5,6 +5,14 @@
  */
 
 module.exports = {
-  /* Your site config here */
-  plugins: [],
+  plugins: [
+    "gatsby-plugin-sass",
+    {
+      resolve: `gatsby-plugin-google-fonts`,
+      options: {
+        fonts: [`Poppins:300,400,500,600,700,900`],
+        display: "swap",
+      },
+    },
+  ],
 }
