@@ -3,5 +3,5 @@ import { Row, Col, Form, Button } from "react-bootstrap"
 import { Link } from "gatsby"
 
 const FAQPage = () => {
-  return <div></div>
+  return <div><img src=""></div>
 }
